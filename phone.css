@@ -1,0 +1,45 @@
+#navbar{
+    flex-direction: column;
+} 
+#navbar ul li a{
+   font-size: 1rem;
+   padding: 0px 7px;
+   padding-bottom: 0px 8px;
+}
+#logo img {
+    margin: -25px 0px;
+    height: 60px;
+    /* border-radius: 100px; */
+}
+#home{
+    height: 280px;
+    padding: 3px 50px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+#services{
+    flex-direction: column;
+}
+#clients{
+flex-wrap: wrap;
+}
+.h-primary{
+    font-size: 26px;
+}
+#home h1{
+    translate: 0px -13px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#contact-box form{
+    width: 70%;
+}
+#contact-box input, #contact-box textarea {
+    padding: 6px 12px;
+}
